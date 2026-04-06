@@ -31,7 +31,7 @@ git clone --depth 1 https://github.com/kenzok78/luci-theme-infinityfreedom ifit 
 git clone --depth 1 https://github.com/sirpdboy/luci-theme-kucat openwrt-kucat && mv -n openwrt-kucat/luci-theme-kucat ./ ; rm -rf openwrt-kucat
 git clone --depth 1 https://github.com/kenzok78/luci-theme-argone
 git clone --depth 1 https://github.com/kenzok78/luci-app-argone-config
-#git clone --depth 1 https://github.com/kenzok78/luci-app-adguardhome
+git clone --depth 1 https://github.com/JohnnyDu0815/luci-app-adguardhome
 git clone --depth 1 https://github.com/kenzok78/luci-app-advanced
 git clone --depth 1 https://github.com/kenzok78/luci-app-aliddns
 git clone --depth 1 https://github.com/kenzok78/luci-app-eqos
