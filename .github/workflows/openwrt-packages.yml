@@ -42,7 +42,7 @@ jobs:
       run: |
         cd $GITHUB_WORKSPACE
         chmod +x .github/diy/${{matrix.target}}.sh
-        git clone -b master https://github.com/kenzok8/openwrt-packages.git ${{matrix.target}}
+        git clone -b master https://github.com/JohnnyDu0815/openwrt-packages.git ${{matrix.target}}
         cd ${{matrix.target}}
         # 保留 .git、.github、diy 目录，只清除包目录
         find . -mindepth 1 -maxdepth 1 ! -name '.git' ! -name '.github' ! -name 'diy' -exec rm -rf {} +
@@ -171,7 +171,7 @@ jobs:
         fi
 
         if [ "$committed_any" = "true" ]; then
-          git push --force --quiet "https://${{ secrets.ACCESS_TOKEN }}@github.com/kenzok8/openwrt-packages.git" HEAD:master
+          git push --force --quiet "https://${{ secrets.ACCESS_TOKEN }}@github.com/JohnnyDu0815/openwrt-packages.git" HEAD:master
           echo "✅ Push 完成"
         else
           echo "ℹ️ nothing to push"
