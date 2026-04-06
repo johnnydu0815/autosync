@@ -56,7 +56,7 @@ git clone --depth 1 https://github.com/kenzok78/luci-theme-atmaterial_new
 git clone --depth 1 https://github.com/kenzok78/luci-theme-argone
 git clone --depth 1 https://github.com/kenzok78/luci-theme-tomato
 git clone --depth 1 https://github.com/kenzok78/luci-app-argone-config
-#git clone --depth 1 https://github.com/kenzok78/luci-app-adguardhome
+git clone --depth 1 https://github.com/JohnnyDu0815/luci-app-adguardhome
 git clone --depth 1 https://github.com/kenzok78/luci-app-advanced
 git clone --depth 1 https://github.com/kenzok78/luci-app-eqos
 git clone --depth 1 https://github.com/kenzok78/luci-app-easymesh
