@@ -56,7 +56,7 @@ git clone --depth 1 https://github.com/kenzok78/luci-theme-atmaterial_new
 git clone --depth 1 https://github.com/kenzok78/luci-theme-argone
 git clone --depth 1 https://github.com/kenzok78/luci-theme-tomato
 git clone --depth 1 https://github.com/kenzok78/luci-app-argone-config
-git clone --depth 1 https://github.com/JohnnyDu0815/luci-app-adguardhome
+git clone --depth 1 https://github.com/kenzok78/luci-app-adguardhome
 git clone --depth 1 https://github.com/kenzok78/luci-app-advanced
 git clone --depth 1 https://github.com/kenzok78/luci-app-eqos
 git clone --depth 1 https://github.com/kenzok78/luci-app-easymesh
@@ -81,7 +81,7 @@ git clone --depth 1 https://github.com/lisaac/luci-app-dockerman dockerman && mv
 git clone --depth 1 https://github.com/vernesong/OpenClash && mv -n OpenClash/luci-app-openclash ./; rm -rf OpenClash
 git clone --depth 1 https://github.com/kenzok8/luci-app-openclaw
 #git clone --depth 1 https://github.com/kenzok8/litte && mv -n litte/luci-theme-atmaterial_new litte/luci-theme-tomato ./ ; rm -rf litte
-git clone --depth 1 https://github.com/JohnnyDu0815/wall && mv -n wall/* ./ ; rm -rf wall
+git clone --depth 1 https://github.com/kenzok78/wall && mv -n wall/* ./ ; rm -rf wall
 [ -f ucl/Makefile ] && sed -i \
   -e 's/^PKG_SOURCE_URL:=.*/PKG_SOURCE_URL:=https:\/\/codeload.github.com\/kenzok8\/ucl\/tar.gz\/v$(PKG_VERSION)?/' \
   -e 's/^[[:space:]]*URL:=.*/  URL:=https:\/\/github.com\/kenzok8\/ucl/' \
